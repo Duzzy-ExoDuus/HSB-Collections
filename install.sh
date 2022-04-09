@@ -15,4 +15,7 @@ cat <<EOF
 #
 # [Plymouth]
 # sudo plymouth-set-default-theme [YOURTHEME] -R
+# Or
+# sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/dotLockG/dotLockG.plymouth 100
+# sudo update-alternatives --config default.plymouth
 EOF
